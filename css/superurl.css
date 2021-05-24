@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900');
+
+.variants-header, .variants-tabs__tab__title {
+	font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 20px;
+	color: rgb(49, 49, 49);
+	font-family: Montserrat, sans-serif, "Open Sans", Helvetica !important;
+	margin-bottom: 13px;
+	max-width: 483px;
+	padding-top: 13px
+}
+.variants-header div {
+	width: 270px;
+}
+
+#marketplace-select{
+	color: #646464;
+	box-sizing: border-box;
+    line-height: 26px;
+    font-size: 15px;
+	font-family: Montserrat, sans-serif, "Open Sans", Helvetica !important;
+	font-weight: 400;
+	/* padding: 0 20px; */
+	/* padding-top: 13px; */
+	margin-bottom: 13px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	width: 200px;
+	/* height: 50px; */
+	float: left;
+}
+
+.variants-tabs__tab__img {
+    display: none;
+    position: absolute;
+    right: 11px;
+    top: 11px;
+    z-index: 1;
+}
+
+.variants-tabs__tab__description {
+	font-size: 12px;
+    line-height: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+	color: #646464;
+	font-family: Montserrat, sans-serif, "Open Sans", Helvetica !important;
+	margin-left: 25px;
+}
+
+.variant-content__example, .result {
+    font-size: 14px;
+    /* line-height: auto; */
+    padding-top: 10px;
+    margin-bottom: 10px;
+	color: #646464;
+	font-family: Montserrat, sans-serif, "Open Sans", Helvetica !important;
+	margin-left: 25px;
+    word-break: break-all;
+	display: inline-block;
+
+}
+
+.input-additional {
+    margin-left: 0;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 9px;
+    /* margin-top: 20px; */
+	font-family: Montserrat, sans-serif, "Open Sans", Helvetica !important;
+	font-weight: 400;
+    word-break: break-all;
+}
+
+div.input-field {
+	margin-left: 25px;
+	margin-top: 10px;;
+}
+
+#calculator > div > div.variants-body > div.variants-content > div > div.variant-content__form > button {
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+input.input {
+	font-size: 13px;
+	height: 30px !important;
+	font-family: Montserrat, sans-serif, "Open Sans", Helvetica !important;
+}
+
+.lg-bt-form {
+	border: none;
+    padding: 7.5px 0;
+	width: 156px;
+	font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fefefe;
+	border-radius: 5px;
+	background: #fe7237;
+	cursor: pointer;
+}
+
+span.lg-bt-form {
+	display: inline-block;
+	text-align: center;
+}
+
+button.create-btn {
+	background-color: #129a5f;
+}
